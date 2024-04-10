@@ -5,3 +5,4 @@ re
 unicodedata
 lxml.html
 python-dotenv
+gunicorn
