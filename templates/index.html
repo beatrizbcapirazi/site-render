@@ -148,8 +148,17 @@
         <option value="/projetos">Projetos (GitHub) de Laura Intrieri</option>
         <option value="/publicacoes">Publicações de Laura Intrieri</option>
         <option value="/radaresg">Radar ESG </option>
-    </select>
+   </select>
 
+    <script>
+        function redirecionarParaPagina() {
+            var paginaSelecionada = document.getElementById("menuPaginas").value;
+            if (paginaSelecionada) {
+                window.location.href = paginaSelecionada;
+            }
+        }
+    </script>
+    
     <div class="container">
         <div class="projeto">
             <h2><i>Sobre o projeto</i></h2>
