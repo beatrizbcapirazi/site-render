@@ -25,7 +25,7 @@ def enviar_email(conteudo_html):
 
     # Dados para o email que será enviado:
     remetente = "beatrizbergaminjornalista@gmail.com"
-    destinatarios = ["beatrizbergaminjornalista@gmail.com"]
+    destinatarios = ["beatrizbergaminjornalista@gmail.com", "alvarojusten@gmail.com"]
     titulo = "Radar ESG - suas notícias de bioeconomia"
     html = """
     <!DOCTYPE html>
