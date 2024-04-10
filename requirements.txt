@@ -1,7 +1,6 @@
 flask
 requests
 beautifulsoup4
-unicodedata
 lxml.html
 python-dotenv
 gunicorn
